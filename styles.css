@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container{
+  width: 500px;
+  height: 700px;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.songLinks{
+  overflow: auto;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
+a{
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 10px;
+}
+.vidcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
